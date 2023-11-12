@@ -61,7 +61,7 @@ function Intro({}: Props) {
         // transition={{ type: 'tween', duration: 0.2 }}
       >
         <span>
-          Hello I'a <strong>Heechem :</strong>{' '}
+          Hello I am <strong>Heechem :</strong>{' '}
         </span>
         <TypeAnimation
           sequence={[
