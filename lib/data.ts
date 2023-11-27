@@ -6,6 +6,7 @@ import dashBoard from '@/public/ResponsiveDashboard.png';
 import uber from '@/public/UberClone.png';
 import Tesla from '@/public/Tesla.png';
 import flo from '@/public/flo.png';
+import Affinity from '@/public/affinity.png';
 
 export const links = [
   {
@@ -62,6 +63,15 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: 'Affinity Care',
+    description: 'Web site UI for care home service faiclity  ',
+    tags: ['Next.js', 'Framer Motion', 'Tailwind', 'Resend', 'React Email'],
+    imageUrl: Affinity,
+    link: 'https://affinity-care.vercel.app/',
+    userName: '',
+    password: '',
+  },
   {
     title: 'Uber Clone',
     description: 'I created this uber clone  ',

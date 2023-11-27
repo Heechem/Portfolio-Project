@@ -67,7 +67,7 @@ function Intro({}: Props) {
           sequence={[
             // Same substring at the start will only be typed out once, initially
             2000,
-            'A Web Developer',
+            'A Fron-end Developer',
           ]}
           speed={50}
           repeat={Infinity}
