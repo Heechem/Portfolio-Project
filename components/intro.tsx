@@ -67,11 +67,12 @@ function Intro({}: Props) {
           sequence={[
             // Same substring at the start will only be typed out once, initially
             2000,
-            'A Fron-end Developer',
+            'A Front-end Developer',
+            2000,
+            'Who is ',
           ]}
           speed={50}
           repeat={Infinity}
-          deletionSpeed={50}
         />
         <br />
         Transitioning from the world of Supply Chain Management and Customer
@@ -99,7 +100,7 @@ function Intro({}: Props) {
         </Link>
         <a
           className=" group bg-white  px-8 py-2 flex items-center gap-2 rounded-full cursor-pointer outline-none  hover:scale-110 active:scale-105 transition-all ease-in-out duration-200 borderBlack dark:bg-white/10"
-          href="/ResumeHeechem.pdf"
+          href="/Logistic.pdf"
           download={true}
         >
           Resume{' '}

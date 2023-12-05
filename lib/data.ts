@@ -48,7 +48,7 @@ export const experiencesData = [
     title: 'Technical Back-liner',
     location: 'Athens, GR',
     description:
-      'I served as a technical back-liner at Teleperformance in Greece for the world, largest household brand, contributing value through technical support.',
+      "I worked as a technical specialist and trainer, supporting agents handling technical inquiries for the world's largest household brand, offering valuable guidance and assistance. ",
     icon: React.createElement(CgWorkAlt),
     date: '2020 - 2022',
   },
@@ -56,9 +56,9 @@ export const experiencesData = [
     title: 'Customer service',
     location: 'Algiers, DZD',
     description:
-      'As a counter agent, I added value by enhancing customer service for a leading global shipping company.',
+      'Act as the primary point of contact and coordinator for customers throughout the shipment process, from the shipper to the final delivery mile.',
     icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2020',
+    date: '2018 - 2020',
   },
 ] as const;
 
