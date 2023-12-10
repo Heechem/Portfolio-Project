@@ -67,7 +67,7 @@ export const projectsData = [
   {
     title: 'The wild oasis',
     description: 'A dashboard for a hotel management   ',
-    tags: ['React', 'Supabase', 'React Router', 'Tailwind', 'Redux'],
+    tags: ['React', 'Supabase', 'React Router', 'Styled Components', 'Redux'],
     imageUrl: wilde,
     link: 'https://wildeoasis.netlify.app/',
     userName: 'test@test.com ',
