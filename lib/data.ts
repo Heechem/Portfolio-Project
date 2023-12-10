@@ -7,6 +7,7 @@ import uber from '@/public/UberClone.png';
 import Tesla from '@/public/Tesla.png';
 import flo from '@/public/flo.png';
 import Affinity from '@/public/affinity.png';
+import wilde from '@/public/wild-oasis.png';
 
 export const links = [
   {
@@ -64,6 +65,15 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: 'The wild oasis',
+    description: 'A dashboard for a hotel management   ',
+    tags: ['React', 'Supabase', 'React Router', 'Tailwind', 'Redux'],
+    imageUrl: wilde,
+    link: 'https://wildeoasis.netlify.app/',
+    userName: 'test@test.com ',
+    password: 'test1234',
+  },
+  {
     title: 'Affinity Care',
     description: 'Web site UI for care home service faiclity  ',
     tags: ['Next.js', 'Framer Motion', 'Tailwind', 'Resend', 'React Email'],
@@ -81,6 +91,7 @@ export const projectsData = [
     userName: 'test@testmail.com ',
     password: '123456',
   },
+
   {
     title: 'Tesla Clone',
     description:
