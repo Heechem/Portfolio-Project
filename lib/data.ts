@@ -1,13 +1,11 @@
-import React from 'react';
-import { CgWorkAlt } from 'react-icons/cg';
-import { FaReact } from 'react-icons/fa';
-import { LuGraduationCap } from 'react-icons/lu';
 import dashBoard from '@/public/ResponsiveDashboard.png';
-import uber from '@/public/UberClone.png';
 import Tesla from '@/public/Tesla.png';
-import flo from '@/public/flo.png';
+import uber from '@/public/UberClone.png';
 import Affinity from '@/public/affinity.png';
 import wilde from '@/public/wild-oasis.png';
+import pizza from '@/public/Pizzadise.png';
+import React from 'react';
+import { CgWorkAlt } from 'react-icons/cg';
 
 export const links = [
   {
@@ -74,6 +72,16 @@ export const projectsData = [
     password: 'test1234',
   },
   {
+    title: 'Pizzadise',
+    description: 'All the features of an online store ',
+    tags: ['React', 'Redux toolkit', 'Tailwind', 'React Router'],
+    imageUrl: pizza,
+    link: 'https://pizza-fast-beige.vercel.app/',
+    userName: '',
+    password: '',
+  },
+
+  {
     title: 'Affinity Care',
     description: 'Web site UI for care home service faiclity  ',
     tags: ['Next.js', 'Framer Motion', 'Tailwind', 'Resend', 'React Email'],
@@ -81,15 +89,6 @@ export const projectsData = [
     link: 'https://affinity-care.vercel.app/',
     userName: '',
     password: '',
-  },
-  {
-    title: 'Uber Clone',
-    description: 'I created this uber clone  ',
-    tags: ['React', 'Next.js', 'Stripe', 'Tailwind', 'Google API'],
-    imageUrl: uber,
-    link: 'https://uber-clone-rxnt-al460u03c-heechem.vercel.app/',
-    userName: 'test@testmail.com ',
-    password: '123456',
   },
 
   {
