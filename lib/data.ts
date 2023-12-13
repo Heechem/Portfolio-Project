@@ -71,15 +71,15 @@ export const projectsData = [
     userName: 'test@test.com ',
     password: 'test1234',
   },
-  {
-    title: 'Pizzadise',
-    description: 'All the features of an online store ',
-    tags: ['React', 'Redux toolkit', 'Tailwind', 'React Router'],
-    imageUrl: pizza,
-    link: 'https://pizza-fast-beige.vercel.app/',
-    userName: '',
-    password: '',
-  },
+  // {
+  //   title: 'Pizzadise',
+  //   description: 'All the features of an online store ',
+  //   tags: ['React', 'Redux toolkit', 'Tailwind', 'React Router'],
+  //   imageUrl: pizza,
+  //   link: 'https://pizza-fast-beige.vercel.app/',
+  //   userName: '',
+  //   password: '',
+  // },
 
   {
     title: 'Affinity Care',
