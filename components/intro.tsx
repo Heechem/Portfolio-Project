@@ -100,7 +100,7 @@ function Intro({}: Props) {
         </Link>
         <a
           className=" group bg-white  px-8 py-2 flex items-center gap-2 rounded-full cursor-pointer outline-none  hover:scale-110 active:scale-105 transition-all ease-in-out duration-200 borderBlack dark:bg-white/10"
-          href="/Resumee.pdf"
+          href="/ResumeeHeechem.pdf"
           download={true}
         >
           Resume{' '}
